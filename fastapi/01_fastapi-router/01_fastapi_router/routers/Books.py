@@ -48,7 +48,7 @@ async def delete(id: int)-> None: # None Because there is a Error when return Di
                 detail="Book don't exists.",
             )
 
-#Update specific field
+#Update specific field/s
 @router.patch('/{id_book}')
 async def Update(
     id_book : int = Path(title="Item ID", description="Unique integer that specifies an item.", ge=0),
