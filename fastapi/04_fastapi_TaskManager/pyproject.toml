@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "04-fastapi-taskmanager"
+version = "0.1.0"
+description = ""
+authors = ["def0ultbug <youssefmahfoudh185@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["all"], version = "^0.128.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
