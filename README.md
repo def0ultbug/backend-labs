@@ -15,7 +15,12 @@ Each folder represents a focused learning exercise with its own README and imple
 ```
 backend-labs/
 ├── fastapi/
-│   └── ...
+│   └── 01_fastapi_router
+│	│
+│	└── 02_fastapi_taskmanager
+│	│
+│	└── 03_fastapi_security
+│ 
 ├── architecture/
 │   └── ...
 ├── design-patterns/
@@ -58,9 +63,9 @@ uvicorn main:app --reload
 ## 📖 Projects
 
 ### FastAPI
-| Project | Concept | Status |
-|---------|---------|--------|
-| ....... |.......  | ...... |
+| Project           | Concept      | Status       |
+|-------------------|--------------|--------------|
+| 01_fastapi_router |fastapi router| ✅ Completed |
 
 
 ### Architecture

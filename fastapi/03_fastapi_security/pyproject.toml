@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fastapi-auth"
+version = "0.1.0"
+description = ""
+authors = ["def0ultbug <youssefmahfoudh185@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["all"], version = "^0.128.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+sqlalchemy = "^2.0.46"
+uvicorn = "^0.40.0"
+bcrypt = "^5.0.0"
+python-jose = {extras = ["cryptography"], version = "^3.5.0"}
+httpx = "^0.28.1"
+pyotp = "^2.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
