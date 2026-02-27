@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fastapi-test-traffic"
+version = "0.1.0"
+description = ""
+authors = ["def0ultbug <youssefmahfoudh185@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+locust = "^2.43.3"
+fastapi = {extras = ["all"], version = "^0.129.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
