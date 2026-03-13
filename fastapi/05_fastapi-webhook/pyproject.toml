@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "05-fastapi-webhook"
+version = "0.1.0"
+description = ""
+authors = ["def0ultbug <youssefmahfoudh185@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["all"], version = "^0.135.1"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
