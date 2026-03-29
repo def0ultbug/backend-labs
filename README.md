@@ -49,15 +49,11 @@ Each project folder contains:
 ### Running a Project
 ```bash
 # Navigate to a specific project
-cd fastapi/01-hello-world
-
-# Install dependencies
-pip install -r requirements.txt
+cd fastapi/01_fastapi_router
 
 # Run the application
 python main.py
-# or
-uvicorn main:app --reload
+
 ```
 
 ## 📖 Projects
@@ -66,6 +62,8 @@ uvicorn main:app --reload
 | Project           | Concept      | Status       |
 |-------------------|--------------|--------------|
 | 01_fastapi_router |fastapi router| ✅ Completed |
+|02_fastapi_taskmanager| fastapi GRUD | ✅ Completed |
+| 03_fastapi_security | API Security |  ✅ Completed |
 
 
 ### Architecture
@@ -85,13 +83,13 @@ uvicorn main:app --reload
 - **Framework:** FastAPI
 - **Language:** Python 3.x
 - **Database:** PostgreSQL, SQLite, MongoDB
-- **ORM:** SQLAlchemy, Tortoise ORM
+- **ORM:** SQLAlchemy ORM
 - **Testing:** Pytest
 - **Tools:** Docker, Redis, RabbitMQ
 
 ### Prerequisites
 - Python 3.8 or higher
-- pip or poetry for package management
+- poetry for package management
 - Basic knowledge of Python and web development
 
 ## 🤝 Contributing
