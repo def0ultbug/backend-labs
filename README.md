@@ -41,7 +41,7 @@ backend-labs/
 
 Each project folder contains:
 - `README.md` - Concept explanation and learning objectives
-- `requirements.txt` or `pyproject.toml` - Dependencies
+- `pyproject.toml` - Dependencies
 - Source code with comments explaining key concepts
 - Tests (where applicable)
 
